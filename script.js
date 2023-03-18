@@ -15,14 +15,14 @@ footer.innerHTML = sender;
 footer.href = "https://www.instagram.com/deden_damaraa/";
 
 document.querySelector(".tombol").addEventListener('click', function () {
-  Swal.fire("Hallo Sayangku", "Aku ada pertanyaan nih buat  cantik?", "question").then(function () {
+  Swal.fire("Halo Sayangku", "Aku ada pertanyaan nih buat kamu nih?", "question").then(function () {
     Swal.fire("Jawab yang jujur ya cantik!").then(function () {
       Swal.fire("Awas aja kalo boong😒 nanti hidungnya panjang", "", "error").then(function () {
 
         const {
           value: name
         } = Swal.fire({
-          title: 'Masukin nama kamu dulu cantik',
+          title: 'Masukin nama kamu dulu ya cantik',
           input: 'text',
           inputLabel: '',
           showCancelButton: true,
